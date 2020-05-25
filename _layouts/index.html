@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Andre's Blog</title>
+	</head>
+	<body>
+		<style>
+			:root {
+				--text-color: #121113;
+				--accent-dark: #28335C;
+				--accent-neutral: #A6B1E1;
+				--accent-light: #DCD6F7;
+				--background-color: #F2EFE9;
+			}
+
+			* {
+				background-color: var(--background-color);
+				color: var(--text-color);
+			}
+
+			.with-sidebar {
+				display: flex;
+				flex-wrap: wrap;
+			}
+
+			.sidebar {
+				flex-basis: 20rem;
+  				flex-grow: 1;
+  				/*border: 3px solid red;*/
+			}
+
+			.sidebar-content {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+			}
+
+			.not-sidebar {
+				flex-basis: 0;
+				flex-grow: 999;
+				/*border: 3px solid blue;*/
+				min-width: 50%;
+			}
+
+			.hank-and-dad {
+				max-width: 250px;
+			}
+
+			.post-container {
+				margin: 24px;
+			}
+
+			.post-container a {
+				color: inherit;
+				text-decoration: none;
+			}
+
+			.categories-container {
+				display: flex;
+    			flex-direction: row;
+			}
+
+			.category {
+				padding: 2px 8px;
+				margin: 4px;
+				border: 1px solid var(--text-color);
+				background-color: var(--accent-light);
+			}
+		</style>
+		<div class="with-sidebar">
+			<div class="sidebar">
+				<div class="sidebar-content">
+					<h1>Andre's Blog</h1>
+					<img class="hank-and-dad" src="/assets/images/hankanddad.jpeg" alt="My son and I" />
+				</div>
+			</div>
+			<div class="not-sidebar">
+				{% for post in site.posts %}
+					<div class="post-container">
+						<a href="{{ post.url }}">
+							<h2>{{ post.title }}</h2>
+							<p>{{ post.description }}</p>
+						</a>
+						<div class="categories-container">
+							{% for category in post.categories %}
+								<div class="category">{{ category }}</div>
+							{% endfor %}
+						</div>
+					</div>
+				{% endfor %}
+			</div>
+		</div>
+	</body>
+</html>
