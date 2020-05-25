@@ -1,81 +1,24 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Andre's Blog</title>
-		<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet" />
+		<title>{{ site.title }}</title>
+		{% include global-includes.html %}
+		<link rel="stylesheet" type="text/css" href="/assets/css/index.css" />
 	</head>
 	<body>
-		<style>
-			:root {
-				--text-color: #121113;
-				--accent-dark: #28335C;
-				--accent-neutral: #A6B1E1;
-				--accent-light: #DCD6F7;
-				--background-color: #E3E8E8;
-			}
-
-			* {
-				background-color: var(--background-color);
-				color: var(--text-color);
-				font-family: 'Merriweather', serif;
-			}
-
-			.with-sidebar {
-				align-items: stretch;
-				display: flex;
-				flex-wrap: wrap;
-			}
-
-			.sidebar {
-				flex-basis: 20rem;
-  				flex-grow: 1;
-  				border-right: 2px solid var(--accent-dark);
-			}
-
-			.sidebar-content {
-				display: flex;
-				flex-direction: column;
-				align-items: center;
-			}
-
-			.not-sidebar {
-				flex-basis: 0;
-				flex-grow: 999;
-				min-width: 50%;
-			}
-
-			.hank-and-dad {
-				max-width: 250px;
-			}
-
-			.post-container {
-				margin: 24px;
-			}
-
-			.post-container a {
-				color: inherit;
-				text-decoration: none;
-			}
-
-			.categories-container {
-				display: flex;
-    			flex-direction: row;
-			}
-
-			.category {
-				background-color: var(--accent-light);
-				border: 1px solid var(--accent-dark);
-				padding: 2px 8px;
-				cursor: pointer;
-				margin: 4px;
-				font-size: smaller;
-			}
-		</style>
 		<div class="with-sidebar">
 			<div class="sidebar">
 				<div class="sidebar-content">
-					<h1>Andre's Blog</h1>
+					<h1>{{ site.title }}</h1>
+					<span>What are you up to?</span>
 					<img class="hank-and-dad" src="/assets/images/hankanddad.jpeg" alt="My son and I" />
+					<span class="description">{{ site.description }}</span>
+					<div class="links-container">
+						<a class="github" href="http://www.github.com/cincospenguinos">
+							<img src="/assets/images/github.png" />
+							<span>{{ site.github_username }}</span>
+						</a>
+					</div>
 				</div>
 			</div>
 			<div class="not-sidebar">

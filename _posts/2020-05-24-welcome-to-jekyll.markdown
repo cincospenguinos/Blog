@@ -3,7 +3,7 @@ layout: post
 title:  "Welcome to Jekyll!"
 date:   2020-05-24 17:47:27 -0600
 categories: jekyll update
-description: A simple outline on how this works
+description: A simple outline on how this works, as well as a long description for the sole purpose of seeing how things look on the page. I don't know if it'll look good or not, but I want to give it a shot.
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
