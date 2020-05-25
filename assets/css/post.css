@@ -1,0 +1,19 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+    max-width: 60%;
+    align-self: center;
+    font-size: larger;
+}
+
+.header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header a {
+	font-size: small;
+}
