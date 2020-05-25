@@ -1,10 +1,42 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>{{ title }}</title>
+		<title>{{ page.title }}</title>
 		{% include global-includes.html %}
 	</head>
 	<body>
-		{{ content }}
+		<style>
+			.content {
+			    display: flex;
+			    flex-direction: column;
+			    margin-left: 15%;
+			    max-width: 60%;
+			    align-self: center;
+			    font-size: larger;
+			}
+
+			.header {
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+				align-items: center;
+			}
+
+			.header a {
+				font-size: small;
+			}
+		</style>
+		<div class="content">
+			<div class="header">
+				{% if page.previous %}
+					<a href="{{ page.previous.url }}">Previous post</a>
+				{% endif %}
+				<h1>{{ page.title }}</h1>
+				{% if page.next %}
+					<a href="{{ page.next.url }}">Next post</a>
+				{% endif %}
+			</div>
+			{{ content }}
+		</div>
 	</body>
 </html>
