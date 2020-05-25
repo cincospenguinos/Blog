@@ -3,17 +3,17 @@
 	<head>
 		<title>{{ page.title }}</title>
 		{% include global-includes.html %}
-		<link rel="stylesheet" type="text/css" href="/assets/css/post.css" />
+		<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/post.css" />
 	</head>
 	<body>
 		<div class="content">
 			<div class="header">
 				{% if page.previous %}
-					<a href="{{ page.previous.url }}">Previous post</a>
+					<a href="{{ site.baseurl }}{{ page.previous.url }}">Previous post</a>
 				{% endif %}
 				<h1>{{ page.title }}</h1>
 				{% if page.next %}
-					<a href="{{ page.next.url }}">Next post</a>
+					<a href="{{ site.baseurl }}{{ page.next.url }}">Next post</a>
 				{% endif %}
 			</div>
 			{{ content }}

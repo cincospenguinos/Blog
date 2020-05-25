@@ -2,8 +2,8 @@ title: Hey, Andre!
 email: cincospenguinos@example.com
 description: >-
   A place to put all of my long-winded thoughts about things. Read at your own risk!
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://cincospenguinos.github.io/blog" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/blog" # the subpath of your site, e.g. /blog
+url: "https://cincospenguinos.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: andreCLaFleur
 github_username:  cincospenguinos
 plugins:
