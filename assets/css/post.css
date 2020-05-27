@@ -18,3 +18,8 @@
 .header a {
 	font-size: small;
 }
+
+.image-container {
+    display: flex;
+    justify-content: center;
+}

@@ -6,18 +6,21 @@
 	--background-color: #F3F3F3;
 }
 
-* {
+body {
 	background-color: var(--background-color);
 	color: var(--text-color);
 	font-family: 'Merriweather', serif;
 }
 
 a {
-	color: inherit;
+	color: var(--accent-dark);
 	text-decoration: none;
+}
+
+a:visited {
+	color: var(--accent-neutral);
 }
 
 a:hover {
 	text-decoration: underline;
 }
-
