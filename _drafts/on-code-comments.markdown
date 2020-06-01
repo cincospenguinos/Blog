@@ -13,11 +13,11 @@ I've noticed that jokes like this on the forum tend to get a lot of traction and
 
 ## That's what code is, right?
 
-Imagine you're the new software engineer at a company. They hired one engineer--you--and the guy before you was the guy who wrote the entire code base. Your job is to make changes to that software to keep the company moving. To most people, your job is to tell computers what to do.
+Imagine you're the new software engineer at a company. They hired one engineer--you--and the person before you was the engineer who wrote the entire code base. Your job is to make changes to that software to keep the company moving. To most people, your job is to tell computers what to do.
 
-Here's the problem: the guy before you didn't think about somebody having to read or understand the code he wrote--his job was to tell the computer what to do. So he left this gnarled mess that is hopelessly opaque, with [code smells](https://martinfowler.com/bliki/CodeSmell.html) so bad they'll make you vomit. We've all seen (and I'm sure we've all written) code just like it.
+Here's the problem: the engineer before you didn't think about somebody having to read or understand the code they wrote--their job was to tell the computer what to do. So they left this gnarled mess that is hopelessly opaque, with [code smells](https://martinfowler.com/bliki/CodeSmell.html) so bad they'll make you vomit. We've all seen (and I'm sure we've all written) code just like it.
 
-It would be infuriating to find yourself in this position. You have no knowledge of how this thing works, and you're expected to ship a half-dozen bug fixes by the end of the week. You can go through the troublesome process of changing things to figure out what they are, but trial and error is tedious and time-consuming. You could go line-by-line and figure out what exactly the computer is doing, but that's a massive pain in the ass. Your ability to do your job is now dampened by the previous guy's inability to communicate.
+It would be infuriating to find yourself in this position. You have no knowledge of how this thing works, and you're expected to ship a half-dozen bug fixes by the end of the week. You can go through the troublesome process of changing things to figure out what they are, but trial and error is tedious and time-consuming. You could go line-by-line and figure out what exactly the computer is doing, but that's a massive pain in the ass. Your ability to do your job is now dampened by the previous engineer's inability to communicate.
 
 Now imagine that littered throughout are little comments that say things like `/* Fixes #10928 */` or `// Iterate through the list and updates orders to match batch sizes`. Is the code any cleaner, simpler, or maintainable? No, it's not--the code is still hard to read. All those comments do is either clutter the code base or pass off ugly code as acceptable because a little comment explains what it does.
 
@@ -102,9 +102,9 @@ If source code file size is an issue, then (1) why are you programming it in Jav
 
 I'm hardly the first one to point this out--[Uncle Bob](https://blog.cleancoder.com/) explains this well in his book [Clean Code](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship-ebook/dp/B001GSTOAM/ref=sr_1_3?dchild=1&keywords=Clean+Code&qid=1590558884&sr=8-3). As he says in his book, "Comments do not make up for bad code." (*Clean Code*, page 54.)
 
-## The last guy did not do his job
+## The last engineer did not do his job
 
-He told the computer what to do. He did not tell you what the computer is doing. The dogma mentioned earlier is only a fraction of our job--we write code to tell the computer what to do *and* to tell people what the computer is doing. Code that is understandable but does not work is worthless. Code that works but is not understandable can convince an unknowing manager, but is worthless when it comes time to change it.
+They told the computer what to do. They did not tell you what the computer is doing. The dogma mentioned earlier is only a fraction of our job--we write code to tell the computer what to do *and* to tell people what the computer is doing. Code that is understandable but does not work is worthless. Code that works but is not understandable can convince an unknowing manager, but is worthless when it comes time to change it.
 
 ## When should I use a comment?
 
