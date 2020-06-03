@@ -1,10 +1,11 @@
 ---
 layout: post
-title: "Code Comments"
-description: "Should you use them? Short answer: no. Long answer: nooooooooooooooooooooooooooooooo. Fight me."
+title: Code Comments
+description: 'Should you use them? Short answer: no. Long answer: nooooooooooooooooooooooooooooooo.
+  Fight me.'
 categories: software-engineering
+date: 2020-06-03 09:51 -0600
 ---
-
 I frequent a popular forum dedicated to making jokes about programming. The jokes shared are usually inoffensive--many are downright relatable--but periodically I'll find one that gets under my skin. Today it was this one:
 
 <div class="image-container"><img alt="Garbage joke for garbage programmers" src="/blog/assets/images/code-comments-meme.jpg" /></div>
