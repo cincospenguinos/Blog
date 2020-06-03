@@ -101,7 +101,7 @@ What's the downside to this approach? There's more code doing the same thing, an
 
 If source code file size is an issue, then (1) why are you programming it in Java, and (2) are you sure Java was the right thing to write it in? Maybe we should use a higher-level language, like Ruby, or lower one, like assembly. Or maybe you need different compiler options than what you're using--[flags for those exist, even in Java](https://www.oracle.com/java/technologies/javase/vmoptions-jsp.html#PerformanceTuning). The solution to "hey this code is hard to understand" isn't a comment--it's more expressive design, built on the bricks of well-selected variable and method names.
 
-I'm hardly the first one to point this out--[Uncle Bob](https://blog.cleancoder.com/) explains this well in his book [Clean Code](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship-ebook/dp/B001GSTOAM/ref=sr_1_3?dchild=1&keywords=Clean+Code&qid=1590558884&sr=8-3). As he says in his book, "Comments do not make up for bad code." (*Clean Code*, page 54.)
+I'm hardly the first one to point this out--[Uncle Bob](https://blog.cleancoder.com/) explains this well in his book [Clean Code](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship-ebook/dp/B001GSTOAM/ref=sr_1_3?dchild=1&keywords=Clean+Code&qid=1590558884&sr=8-3). As he says in his book, "Comments do not make up for bad code."[^1]
 
 ## The last engineer did not do his job
 
@@ -114,3 +114,5 @@ A well-placed comment is valuable, particularly when it's expressing something t
 A comment should never be used to explain what the computer is doing--code exists for that. It usually should not explain the reasons behind a code decision--version control messages exist for that. Great care and forethought must go into writing a comment, always in service of upholding the second part of our job: to explain to a human what the computer is doing.
 
 A comment explaining a gnarly piece of code is just as valuable as spraying a bit of Febreze on your rotting garbage--it's trying to hide the smell, but trust me: you're not fooling anyone. **Comments do not make up for bad code.**
+
+[^1]: *Clean Code* by Uncle Bob, page 54
