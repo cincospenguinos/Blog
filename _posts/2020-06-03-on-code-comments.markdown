@@ -103,7 +103,7 @@ If source code file size is an issue, then (1) why are you programming it in Jav
 
 I'm hardly the first one to point this out--[Uncle Bob](https://blog.cleancoder.com/) explains this well in his book [Clean Code](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship-ebook/dp/B001GSTOAM/ref=sr_1_3?dchild=1&keywords=Clean+Code&qid=1590558884&sr=8-3). As he says in his book, "Comments do not make up for bad code."[^1]
 
-## The last engineer did not do his job
+## The last engineer did not do their job
 
 They told the computer what to do. They did not tell you what the computer is doing. The dogma mentioned earlier is only a fraction of our job--we write code to tell the computer what to do *and* to tell people what the computer is doing. Code that is understandable but does not work is worthless. Code that works but is not understandable can convince an unknowing manager, but is worthless when it comes time to change it.
 
