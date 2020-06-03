@@ -31,3 +31,18 @@
 .footnotes {
     font-size: smaller;
 }
+
+blockquote {
+    background-color: var(--accent-neutral);
+    border: 1px solid var(--accent-dark);
+    padding: 16px 32px;
+    font-size: larger;
+}
+
+blockquote > p, blockquote > footer {
+    color: var(--text-color-contrast);
+}
+
+blockquote > footer {
+    text-align: right;
+}
