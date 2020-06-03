@@ -1,9 +1,11 @@
 ---
 layout: post
 title: "Moonlighter, Dark Souls, and Fighting Games"
-description: "My thoughts on a game I didn't totally like, but it has some interesting pieces, but I can't recommend it--just read the whole thing."
+description: "My thoughts on a game I didn't really like, but I kind of did, but also didn't--it's complicated, okay?"
 categories: indie-games dark-souls fighting-games
 ---
+
+<img src="{{ site.baseurl }}/assets/images/moonlighter_logo.png" alt="Moonlighter game logo" style="max-width: 100%" title="Pretty Moonlighter opening screen" />
 
 A little while ago my coworkers and I had a brief discussion about the [indie game "Moonlighter"](https://moonlighterthegame.com/), an indie game that captures the experience of working your day job while you get your side hustle up and running to the point that you can do that full-time. I've seen it get a [number of positive reviews on Steam](https://store.steampowered.com/app/606150/Moonlighter/#app_reviews_hash) and a couple of my coworkers expressed their enjoyment of the game. Given that its combat is inspired by the Souls series, and its pixel-art aesthetic is rich and beautiful, I figured that it would be right up my alley.
 
@@ -64,6 +66,33 @@ There's a plethora of ways to tell an engaging story within the limits of a vide
 ### Did I mention dungeon design?
 
 Designing a rogue-lite dungeon generator can be difficult. You have to provide enough variation to make the game endlessly playable, while also providing enough similarity to ensure various areas are still completeable at the skill level the designers desire. This means that you need to make some variables be totally dependent on the randomized system, while others need to be strictly limited. Few games do this well--[Rogue Legacy](http://cellardoorgames.com/roguelegacy/) and [Spelunky](https://spelunkyworld.com/) are prime examples of that for me.
+
+<style>
+	.all-same-rooms {
+	    align-self: center;
+		display: flex;
+	    flex-direction: row;
+	    justify-content: center;
+	    max-width: 48%;
+	    margin: 32px 0;
+	}
+
+	.all-same-rooms > img {
+		max-width: inherit;
+		margin: 0 8px;
+	}
+
+	.all-same-rooms-note {
+		font-size: xx-small;
+	}
+</style>
+
+<div class="all-same-rooms" title="Each room is exactly the same size as the other--lack of variation makes each dungeon feel identical after a couple hours.">
+	<img src="{{ site.baseurl }}/assets/images/room1.jpg" alt="Room in moonlighter dungeon" />
+	<img src="{{ site.baseurl }}/assets/images/room2.jpg" alt="Room in moonlighter dungeon" />
+	<img src="{{ site.baseurl }}/assets/images/room3.jpg" alt="Room in moonlighter dungeon" />
+	<img src="{{ site.baseurl }}/assets/images/room4.jpg" alt="Room in moonlighter dungeon" />
+</div>
 
 Moonlighter made every room fit the exact same set of dimensions, and then each room would randomly select one of a small number of variations, with the enemies sitting in the same places and the same traps in the same spots over, and over, and over. Because of how restricted the layout of a dungeon is, beating the first dungeon was seeing virtually every possible pattern in the subsequent dungeons. I never came across a variation that was unbeatable due to level orientation, but doing so would have been much more engaging than seeing the same patterns over and over again.
 
