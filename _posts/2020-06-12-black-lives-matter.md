@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Black Lives Matter
+date: 2020-06-12 11:28 -0600
 ---
-
 Can I point something out about language?
 
 A few folks I work with responded to the statement that black lives matter with the words "all lives matter." Knowing these folks, I think they believe that statement is innocuous.
