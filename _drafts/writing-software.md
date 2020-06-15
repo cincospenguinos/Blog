@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Writing Software
-description: DHH gave an inflammatory talk a few years ago, and I have some thoughts about it.
+description: A response to DHH's 2014 talk of the same name.
 categories: software-engineering
 ---
 
@@ -15,14 +15,66 @@ categories: software-engineering
 	<footer>--Italo Calvino, <cite>Invisible Cities</cite></footer>
 </blockquote>
 
-In 2014 David Heinemeier Hansson (DHH) gave a talk in Chicago for 2014's Rails conference, simply entitled ["Writing Software."](https://www.youtube.com/watch?v=9LfmrkyP81M) DHH made a number of remarks in that talk that others found inflammatory. Given DHH's reputation online, it's not terribly surprising that he would find himself embroiled yet again in another conflict over the expression of his thoughts on software engineering.
+In 2014 David Heinemeier Hansson (DHH) gave a talk in Chicago for that year's Rails conference, simply entitled ["Writing Software."](https://www.youtube.com/watch?v=9LfmrkyP81M) DHH made a number of remarks in that talk that others found inflammatory. Given DHH's reputation for getting into arguments on the internet--he even admits that openly in his talk--it's not terribly surprising that he would find himself embroiled yet again in another conflict over the expression of his thoughts on software engineering.
 
+In spite of the coarseness of some his delivery, I found some valuable pieces of information about Software Engineering and the industry at large through his talk. There's a number of things he discusses that resonated deeply with me, and others that left me bewildered and thoroughly disappointed. Forgive how messy this post may be; it's hard getting all of my thoughts in order on this subject.
 
 [Here's the link](https://www.youtube.com/watch?v=9LfmrkyP81M)
+
+## The Barrier of Computer Science
+
+As you can see from my [resume]({{site.baseurl}}/resume), I have a bachelor's of science in Comptuer Science from the University of Utah. The U of U has an impressive Computer Science program, and many within the state would see that as an impressive accomplishment. Within the program I ended up [implementing my own machine learning library in Ruby](https://github.com/cincospenguinos/CS5350), [tackling challenging NLP problems](https://github.com/cincospenguinos/NLP), and [exploring aspects of statistics and probability within the language R](https://github.com/cincospenguinos/cs3130). At a glance, I've tackled some exceptionally technical problems within the field of Computer Science itself.
+
+What you may not know is that it took seven years to make it through, even with an abundance of college credits that allowed me to skip over most general coursework. It took me so long to get through because I didn't feel totally comfortable as a Computer Science major.
+
+Initially I studied Music Composition in college, completing up through some junior-level coursework within that degree. Later I started double-majoring in French Literature (er, French with an emphasis on literature.) In each of those schools I felt so much more comfortable than in Computer Science. I liked Computer Science, I liked my professors, I liked the coursework, but I felt the general attitude towards the kind of work I wanted to do was inherently not-creative, dry and overly scientific.
+
+I felt so much happier reading French novels and writing papers exploring their meanings than building that ML library. I enjoyed the process of examing language, exploring meaning, and enjoying the raw expression of storytelling in a beautiful way. I've always been much more comfortable in the liberal arts sphere of things and its inherent humanity than in the cold, rigid space of scientific reasoning and understanding.
+
+Why did I get a computer science degree? I wanted a job. I wanted a job where I sat and wrote code all day, and that was an easy way to make college be that means of entry. I loved taking problems and writing code to solve them, but I loved writing papers and responding to interesting thoughts and ideas a whole lot more. Experimenting on the powers and limitations of computation was interesting, but I don't feel that I have a mind for it quite like other folks.
+
+And yet, I love my job. I would have become a programmer regardless of whether or not I got a computer science degree, or even whether or not I got a job programming. I love it most because of how human my current employer makes it. To write code is to communicate an idea, with the nice benefit of creating something of use to someone else.
+
+## The Aspirations of the Industry
+
+DHH observed in his talk that folks who work on building information systems tend to think of themselves as colleagues with computer scientists. He brings out Linus Torvalds as an example. I do agree that a lot of industry folks tend to think of themselves as pushing boundaries and limits of computer science, but I would ultimately disagree with his example calling Linus Torvalds a computer scientist.
+
+I readily admit that I could be speaking out of ignorance here, but I would not call Linus Torvalds's work a classic example of computer science. That doesn't mean his contribution is in any way insignificant--he made a highly complex piece of software that the vast majority of the web runs on today. He made another complex piece of software that makes the process of creating and maintaining software far easier than virtually anything else on the market at the time. As far as Mr. Torvalds's work goes, he has made significant contributions that can't be underemphasized.
+
+He didn't solve the Traveling Salesman problem though, proving that P=NP. Conversely he hasn't proved that `P != NP`. He hasn't proposed a new abstract model of computation that pushes past the boundaries of the Turing Machine. At the end of the day, he wrote some code that enabled a lot of other people to either better maintain their own code or use a free and open-source operating system to be used for a variety of things, lowering the monetary boundary of entry into computing.
+
+Holding him up as an example of "being a computer scientist" isn't the best example because his work doesn't quite fit in the realm of computer science.
+
+### Or does it?
+
+My current employer recently ran into a challenging problem. They needed to find a way to implement a requested feature, and discovered that the feature was a form of the Traveling Salesman problem. My coworkers tackled that problem, woring diligently, reading academic works in the field of computer science that explored heuristics to the Traveling Salesman problem and came up with a solution that ended up being a synthesis of the various works my coworkers read.
+
+Is that not computer science? Is that not tackling a problem using a computing machine and attempting to solve that problem in a human beneficial way? Is that not exploring the boundaries and limitations of the computational space? Perhaps what my coworkers did was not on the surface computer science--at least in the academic sense--but they were exploring boundaries and limitations of computability, and it happened to benefit the company as a whole to do such.
+
+There's a reason the engineering department of my current employer is called "Research and Development." As odd as it is seeing a branch hold that label in an organization whose express purpose is to make money, the process of making a machine do something can and does at times bump into situations where exploring computational limits is necessary.
+
+### So is Mr. Torvalds a Computer Scientist?
+
+I don't know. On the surface, maybe not. I imagine he still had to deal with a variety of unsolved problems though while writing the Linux kernel or coming up with Git. I can imagine some algorithms that process graphs were used in the development of Git. Mr. Torvalds probably read academic works dealing with processing graphs in order to optimize his own solution. The short of it is that the creation of an information system does not always exclude the development or even use of ideas and work done within the field of computer science. I think that fact alone makes it reasonable to refer to my coworkers as my colleagues, and although I may not have the chops of Mr. Torvalds, he and I still operate in a similar space doing similar things. That, by definition, makes us colleagues.
+
+## Software Engineering != Computer Science
+
+I thoroughly agree with DHH on this point. The development of software is not equivalent to Computer Science, and looking at software development through the lense of Computer Science, though helpful, is not necessarily accurate. Computer Science is a science--it is rigid, it is firm, it seeks out absolute ideas about the world, and in many ways is closely connected to Mathematics. Software Development and Engineering is more human-focused. An efffective software engineer needs to be able to communicate well, both in the context of code and in the context of office interaction. Software engineering cares less about pushing forward the boundaries of computation, and more about the creation of software to solve human-centric needs.
+
+Although a number of folks love to poke fun at [how uncaring a business may be about the science](https://xkcd.com/664/), I would argue that the academia of Computer Science and the business of Software Engineering have a symbiotic relationship. The creation of software to fill human needs brings up opportunities to explore and expand on the science itself. After all, my coworkers took a real-life problem, reduced it down to the Traveling Salesman problem, and then used academic research on that problem to solve the business's needs.
+
+That doesn't mean the two are the same though--more like the two tend to dance together, sometimes working as inseparable tango dancers, sometimes dancing by themselves. After all, the work of having a computer solve a human problem does not usually bring up issues that require rigorous scientific reasoning and peer review. The fact that they can does not mean that they always do.
+
+### Why view Software Engineering in a scientific lense?
+
+I agree with DHH--I think that viewing the process of creating software as an inherently scientific discipline is inaccurate and leads to problems. I think that a lot of programmers have dogmatic attitudes about what is and is not acceptable. A quick glance at the [C++ forums](http://www.cplusplus.com/forum/) will be full of people arguing over whether one convention of brackets or tabbing or spacing is better than another (a debate that I see about as worthwhile as a pissing match.) Attempts to make things "laws" like "The Law of Demeter" don't actually improve code--they make subjective observations about software the definition of what is good and virtuous. DHH calls that pseudoscience; I call that dogma.
+
+Scientific dogma is hardly new. [Race science](https://www.facinghistory.org/holocaust-and-human-behavior/chapter-2/science-race) is a prime example of dogmatic approach to scientific reasoning, wherein the underlying assumption was that "race is a biological phenomenon" and scientific experiments simply continued from that standpoint.[^1] A number of prominent scientists are attempting to [make scientific reasoning the only accepted philosophical approach and practice](http://existentialcomics.com/comic/190), which is in and of itself a dogma as well.
 
 ### Further Reading
 
 * DHH quotes [this white paper](https://rbcs-us.com/documents/Why-Most-Unit-Testing-is-Waste.pdf) on why unit-level testing is waste
+* Martin Fowler points at the [testing pyramid](https://martinfowler.com/bliki/TestPyramid.html)
 
 ### Notes on Talk
 
@@ -125,3 +177,5 @@ In 2014 David Heinemeier Hansson (DHH) gave a talk in Chicago for 2014's Rails c
 * Draft and redraft things
 	* The act of rewriting in software is the process of refactoring--renaming variables, renaming functions, renaming classes, extracting variables, methods, classes
 * Omit needless words
+
+[^1]: Race science has about as much to do with science as the Java has to do with Javascript: it doesn't. For a wonderful examination of the cultural construct of race and whiteness in particular, listen to the podcast [Seeing White](https://www.sceneonradio.org/seeing-white/) published by Scene on Radio.
