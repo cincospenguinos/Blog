@@ -1,10 +1,11 @@
 ---
 layout: post
-title: "Stacks: An Exploration"
-description: An exploration of the elementary data structure of a stack, potential implementations, and their performance.
+title: 'Stacks: An Exploration'
+description: An exploration of the elementary data structure of a stack, potential
+  implementations, and their performance.
 categories: software-engineering data-structures
+date: 2020-06-21 12:16 -0600
 ---
-
 I've started reading [this book on algorithms and data structures](https://www.amazon.com/Advanced-Data-Structures-Peter-Brass/dp/0521880378), and I thought it may be wise to explore some of the ideas and practices that the book explores. The first section is on stacks, so I went ahead and implemented the various implementations that the book describes. All of my implementations and experiments are in [this repo](https://github.com/cincospenguinos/AlgorithmsAndDataStructures).[^1]
 
 ## Stacks
