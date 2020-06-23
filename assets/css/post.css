@@ -28,6 +28,10 @@
     justify-content: center;
 }
 
+.big-image {
+    width: 100%;
+}
+
 .footnotes {
     font-size: smaller;
 }
