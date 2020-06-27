@@ -33,7 +33,7 @@ You mentioned that your home country of Bulgaria has a different organization th
 
 This statement isn't relevant to RuboCop. It's irrelevant because RuboCop is named after an American film about American police.
 
-The moment the project was named RuboCop was the moment that the project inherited the context of that American film and, by extension, the traditions of the American police force. The fact that you're from Bulgaria is irrelevant to the project, because the project is named after an American cultural artifact.
+The moment the project was named RuboCop was the moment that the project inherited the context of that American film and, by extension, the traditions of the American police force. The fact that you're from Bulgaria is irrelevant to the project because the project is named after an American cultural artifact.
 
 ## The hardest things to do are worth doing
 
