@@ -3,8 +3,8 @@ layout: post
 title: An Open Letter to Bozhidar Batsov
 description: You can never get away from context, even when you want to.
 categories: software-engineering language
+date: 2020-06-27 10:37 -0600
 ---
-
 Dear Mr. Batsov,
 
 I want to formally thank you for the creation and maintenence of your open-source project, [RuboCop](https://rubocop.org/). I have used RuboCop both professionally and privately to ensure that my ruby code meets a high standard. The value of your work and its positive effects on mine cannot be understated.
