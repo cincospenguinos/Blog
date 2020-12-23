@@ -3,6 +3,7 @@ layout: post
 title: State Pattern in Phaser 3
 description: Is the `update` function of your scene full of chunky conditionals? Here's
   one solution.
+categories: software-engineering game-dev
 date: 2020-12-23 01:58 -0700
 ---
 I am currently working on a game using the [Phaser 3 game engine.](https://www.phaser.io/phaser3) I like Phaser a lot because it handles the details of instantiating sprites and handling game objects for you, but gives enough space for you to handle things on your own. Recently I struggled with one of the scenes in my game: its `update` method grew to an enormous size, with a gnarly set of conditionals that made it hard to adjust.
