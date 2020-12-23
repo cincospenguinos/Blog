@@ -306,7 +306,7 @@ update() {
 
 ## Check out my game!
 
-The most recent prod build of my game is always available [here](https://cincospenguinos.github.io/InteractiveTarot/). For more updates and information, check out our [discord server](https://discord.gg/6ty5Dd3).
+The most recent prod build of my game is always available [here](https://flower-prince-studios.herokuapp.com/gobwar). For more updates and information, check out our [discord server](https://discord.gg/6ty5Dd3).
 
 [^1]: "DFA" here is short for ["deterministic finite automaton,"](https://en.wikipedia.org/wiki/Deterministic_finite_automaton) which is one type of a [finite state machine](https://en.wikipedia.org/wiki/Finite-state_machine).
 [^2]: I recognize calling a "switch statement" a code smell is inflammatory--I mean, it's a feature of the language. Why would that be a smell? My only response is that the `switch` statement indicates that there is behavior dependent on a variable, and that can be represented either as a [Strategy](https://sourcemaking.com/design_patterns/strategy) or a [State](https://sourcemaking.com/design_patterns/state) pattern. For more about how `switch` statements can be a smell, check out [this page](https://refactoring.guru/smells/switch-statements).
