@@ -140,7 +140,7 @@ update() {
 }
 ```
 
-I repeated this step until [I had all of the strings in a single object](https://github.com/cincospenguinos/SceneStatePhaser3Example/commit/08463a93a7cd678fdb5aff60ca9e487408e4deb7). I checked to make sure that things still worked properly after this step[^3]. Since they did, I continued to the next step.
+I repeated this step until [I had all of the strings in a single object](https://github.com/cincospenguinos/SceneStatePhaser3Example/commit/08463a93a7cd678fdb5aff60ca9e487408e4deb7). I checked to make sure that things still worked properly after [this step](^3). Since they did, I continued to the next step.
 
 ### Step 2: Create State superclass
 
