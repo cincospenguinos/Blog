@@ -49,13 +49,14 @@
 	font-size: smaller;
 }
 
-.github {
+.link {
 	display: flex;
 	flex-direction: row;
 	font-size: small;
 }
 
-.github > img {
+.link > img,
+.link > svg {
 	width: 16px;
 	height: 16px;
 	margin-right: 4px;
