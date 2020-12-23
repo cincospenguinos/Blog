@@ -1,9 +1,10 @@
 ---
 layout: post
 title: State Pattern in Phaser 3
-description: Is the `update` function of your scene full of chunky conditionals? Here's one solution.
+description: Is the `update` function of your scene full of chunky conditionals? Here's
+  one solution.
+date: 2020-12-23 01:58 -0700
 ---
-
 I am currently working on a game using the [Phaser 3 game engine.](https://www.phaser.io/phaser3) I like Phaser a lot because it handles the details of instantiating sprites and handling game objects for you, but gives enough space for you to handle things on your own. Recently I struggled with one of the scenes in my game: its `update` method grew to an enormous size, with a gnarly set of conditionals that made it hard to adjust.
 
 I was reading [*Refactoring to Patterns* by Joshua Kerievsky](https://industriallogic.com/xp/refactoring/), and found his recipe on how to refactor one such situation to the [State pattern](https://sourcemaking.com/design_patterns/state). I thought that was a solid design pattern for my situation, as all the conditionals in `update` were meant to either perform an operation according to the current state of the scene, or to look up what the next state to transition to is. Simply put, my scene could be represented by a DFA[^1], and the State pattern is one such way to represent it.
