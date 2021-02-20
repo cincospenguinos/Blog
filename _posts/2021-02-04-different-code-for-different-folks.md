@@ -5,7 +5,7 @@ description: Context matters, I guess
 categories: software-engineering
 date: 2021-02-04 12:25 -0700
 ---
-I received a bit of feedback from a [previous blog post I wrote about code comments]({%post_url 2020-06-03-on-code-comments%}). The crux of the feedback was that lots of engineers have different perspectives on code comments, and so take what any one of us say about the subject with a grain of salt. There's a petty part of me that wants to write off that response, but upon reflection I realized something about my previous statement about comments: it assumes we're discussing code for an application that will need to be changed by multiple people[^1]. And that's not the only reason code exists.
+I received a bit of feedback from a [previous blog post I wrote about code comments](http://cincospenguinos.github.com/blog/software-engineering/2020/06/03/on-code-comments.html). The crux of the feedback was that lots of engineers have different perspectives on code comments, and so take what any one of us say about the subject with a grain of salt. There's a petty part of me that wants to write off that response, but upon reflection I realized something about my previous statement about comments: it assumes we're discussing code for an application that will need to be changed by multiple people[^1]. And that's not the only reason code exists.
 
 Looking back on my own career, I can think of a few reasons to I wrote code:
 
